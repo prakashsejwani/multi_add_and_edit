@@ -1,0 +1,751 @@
+/!\ FAILSAFE /!\  Sun Oct 27 18:45:09 +0530 2013
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `gem_original_require'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:36:in `require'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/dependencies.rb:182:in `require'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/dependencies.rb:547:in `new_constants_in'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/dependencies.rb:182:in `require'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activesupport-2.3.14/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/query_cache.rb:28:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/activerecord-2.3.14/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/head.rb:9:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/methodoverride.rb:24:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/session/cookie_store.rb:99:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/lock.rb:11:in `synchronize'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/lock.rb:11:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/reloader.rb:34:in `run'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/actionpack-2.3.14/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rails-2.3.14/lib/rails/rack/static.rb:31:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/urlmap.rb:47:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `each'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/urlmap.rb:41:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rails-2.3.14/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/content_length.rb:13:in `call'
+    /Users/prakash/.rvm/gems/ree-1.8.7-2012.02@rails_2_3_14/gems/rack-1.1.6/lib/rack/handler/webrick.rb:48:in `service'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+  [4;36;1mSQL (1.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20131027131331)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20131027131331')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("companies")[0m
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2013-10-27 19:00:31) [GET]
+  [4;36;1mCompany Load (0.3ms)[0m   [0;1mSELECT * FROM "companies" [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:00:34) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:00:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("companies")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:02:13) [GET]
+
+ActionController::RoutingError (No route matches "/companies/new" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20131027133256)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "companies" already exists: CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("companies")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20131027133256)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "companies" already exists: CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20131027133256)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "companies" already exists: CREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateCompanies (20131027133256)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TABLE "companies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20131027133256')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("companies")[0m
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:04:41) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:05:11) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:05:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:05:32) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:05:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:05:55) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:24:23) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+
+ActionView::TemplateError (undefined method `from_tag' for #<ActionView::Base:0x107b92c58>) on line #3 of app/views/companies/new.html.erb:
+1: <h1>New company</h1>
+2: 
+3: <% from_tag '/users/create', :method => :post do %>
+4:  <%= text_field_tag "companies[][name]" %>
+5:  <%= text_field_tag "companies[][name]" %>
+6: <% end %>
+
+    app/views/companies/new.html.erb:3
+    app/controllers/companies_controller.rb:29:in `new'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:24:30) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:25:23) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:26:31) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:28:10) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:28:41) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:28:55) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:29:03) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:33:45) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:33:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:36:58) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:36:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:37:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:37:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:37:47) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:37:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:38:30) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:38:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:38:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:38:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:39:53) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:39:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:40:31) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:40:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:42:15) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:42:15) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:43:06) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:43:06) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:43:34) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:43:34) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:44:31) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:44:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:44:39) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 18ms (View: 15, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 19:44:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-1.10.2.min.map" with {:method=>:get}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:45:26) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:47:08) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:48:33) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:49:12) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:49:28) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:49:40) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:49:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:52:43) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:56:33) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:56:52) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:57:12) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 19:57:55) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:00:14) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:00:44) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:01:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:01:26) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:02:03) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:02:25) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:02:42) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:08:06) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:16:12) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 20ms (View: 12, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:22:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 20:22:39) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HOKxIwQXUevikWVL5fbk0F7Cu0DTUWFW8EUG0tryqvw=", "companies"=>[{"name"=>"prakash sejwani"}, {"name"=>"hsdjkhs"}, {"name"=>"kkk"}, {"name"=>"iiiii"}]}
+
+ActionController::RoutingError (No route matches "/users/create" with {:method=>:post}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 20:22:59) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HOKxIwQXUevikWVL5fbk0F7Cu0DTUWFW8EUG0tryqvw=", "companies"=>[{"name"=>"prakash sejwani"}, {"name"=>"hsdjkhs"}, {"name"=>"kkk"}, {"name"=>"iiiii"}]}
+
+ActionController::RoutingError (No route matches "/users/create" with {:method=>:post}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2013-10-27 20:23:11) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HOKxIwQXUevikWVL5fbk0F7Cu0DTUWFW8EUG0tryqvw=", "companies"=>[{"name"=>"prakash sejwani"}, {"name"=>"hsdjkhs"}, {"name"=>"sdwd"}, {"name"=>"ddddd"}, {"name"=>"fffff"}]}
+
+ActionController::RoutingError (No route matches "/users/create" with {:method=>:post}):
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/prakash/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/webrick/server.rb:162
+
+Rendering rescues/layout (not_found)
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2013-10-27 20:23:18) [GET]
+  [4;36;1mCompany Load (0.6ms)[0m   [0;1mSELECT * FROM "companies" [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:23:20) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 101ms (View: 98, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#create (for 127.0.0.1 at 2013-10-27 20:23:38) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"HOKxIwQXUevikWVL5fbk0F7Cu0DTUWFW8EUG0tryqvw=", "companies"=>[{"name"=>"ddddd"}, {"name"=>"ffffff"}, {"name"=>"ggggg"}, {"name"=>"ttytyty"}, {"name"=>"thththt"}]}
+  [4;35;1mCompany Create (1.1ms)[0m   [0mINSERT INTO "companies" ("created_at", "name", "address", "updated_at") VALUES('2013-10-27 14:53:38', 'ddddd', NULL, '2013-10-27 14:53:38')[0m
+  [4;36;1mCompany Create (0.2ms)[0m   [0;1mINSERT INTO "companies" ("created_at", "name", "address", "updated_at") VALUES('2013-10-27 14:53:38', 'ffffff', NULL, '2013-10-27 14:53:38')[0m
+  [4;35;1mCompany Create (0.2ms)[0m   [0mINSERT INTO "companies" ("created_at", "name", "address", "updated_at") VALUES('2013-10-27 14:53:38', 'ggggg', NULL, '2013-10-27 14:53:38')[0m
+  [4;36;1mCompany Create (0.2ms)[0m   [0;1mINSERT INTO "companies" ("created_at", "name", "address", "updated_at") VALUES('2013-10-27 14:53:38', 'ttytyty', NULL, '2013-10-27 14:53:38')[0m
+  [4;35;1mCompany Create (0.3ms)[0m   [0mINSERT INTO "companies" ("created_at", "name", "address", "updated_at") VALUES('2013-10-27 14:53:38', 'thththt', NULL, '2013-10-27 14:53:38')[0m
+Redirected to http://localhost:3001/companies
+Completed in 15ms (DB: 2) | 302 Found [http://localhost/companies/create]
+
+
+Processing CompaniesController#index (for 127.0.0.1 at 2013-10-27 20:23:38) [GET]
+  [4;36;1mCompany Load (0.4ms)[0m   [0;1mSELECT * FROM "companies" [0m
+Rendering template within layouts/companies
+Rendering companies/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/companies]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:23:41) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:23:50) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:24:02) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/companies/new]
+
+
+Processing CompaniesController#new (for 127.0.0.1 at 2013-10-27 20:24:39) [GET]
+Rendering template within layouts/companies
+Rendering companies/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/companies/new]

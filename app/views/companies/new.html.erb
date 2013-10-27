@@ -1,0 +1,26 @@
+
+<h1>New company</h1>
+
+<% form_tag '/companies/create', :method => :post, :class => "new_company" do %>
+  <div class="new_comp">Name: <%= text_field_tag "companies[][name]" %><%= link_to "_", "javascript:void(0)", :class => "del_comp"%></div>
+  <%= submit_tag "Submit"%>
+<% end %>
+<div><%= link_to "+", "javascript:void(0)", :id => "add_comp"%></div>
+
+
+<%= link_to 'Back', companies_path %>
+
+<script type="text/javascript">
+  $("#add_comp").click(function(){
+    console.log($(".new_comp:last").length)
+    if ($(".new_comp:last").length != 0){
+      $(".new_comp:last").append("<div class='new_comp'>Name: <input id='companies__name' name='companies[][name]' type='text'><a href='javascript:void(0)'' class='del_comp'>_</a></div>");
+    }else{
+      $(".new_company").html("<div class='new_comp'>Name: <input id='companies__name' name='companies[][name]' type='text'><a href='javascript:void(0)'' class='del_comp'>_</a></div><input name='commit' type='submit' value='Submit'>")
+    }
+});
+
+    $("body").delegate(".del_comp", 'click', function () { 
+    $(this).parent('div').remove();
+  });
+</script>
